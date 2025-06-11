@@ -33,7 +33,7 @@ ________________________________________________________________________________
 ## Redirect
 When you press a button, it goes to a different category
 ## DEPENDENCIES
-single tap support
+single tap support 
 MenuScript
 ________________________________________________________________________________________________________________________________
 public int Category;
