@@ -19,7 +19,9 @@ MenuScript
 (replace [colorvar] with a Color variable you have created.)
 ________________________________________________________________________________________________________________________________
 MenuScript.BGColor = [colorvar];
+
 MenuScript.ButtonColor = [colorvar];
+
 MenuScript.PressedColor = [colorvar];
 ________________________________________________________________________________________________________________________________
 ## single tap support
