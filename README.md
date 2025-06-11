@@ -4,9 +4,11 @@ This is also included in the unity package if you want to look over it.
 
 While the menu script doesn't have a full-fledged API, it does have some variables that can be changed with c#:
 
-Dependencies/Setup
+## Dependencies/Setup:
 Create a new c# script in Extensions or whatever location you want.
+
 Add "public ModMenu MenuScript" to it.
+
 You're ready to go!
 
 # BASICS:
