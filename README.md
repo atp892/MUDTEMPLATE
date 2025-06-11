@@ -11,7 +11,7 @@ You're ready to go!
 
 # BASICS:
 
-## color
+### color
 this one is built into v1.1, called "ThemeChanger"
 ## DEPENDENCIES
 MenuScript
@@ -22,7 +22,7 @@ ________________________________________________________________________________
 	MenuScript.ButtonColor = [colorvar];
 	MenuScript.PressedColor = [colorvar];
 ________________________________________________________________________________________________________________________________
-## single tap support
+### single tap support
 This one is easier to understand with code
 ________________________________________________________________________________________________________________________________
 	private void OnEnable()
@@ -30,7 +30,7 @@ ________________________________________________________________________________
 		gameObject.SetActive(false);
 	}
 ________________________________________________________________________________________________________________________________
-## Redirect
+### Redirect
 When you press a button, it goes to a different category
 ## DEPENDENCIES
 
