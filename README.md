@@ -12,7 +12,7 @@ You're ready to go!
 # BASICS:
 
 ## color
-this one is built into v1.1, called "ThemeChanger", but if you want to make it yourself, you can do so with
+this one is built into v1.1, called "ThemeChanger"
 ## DEPENDENCIES
 MenuScript
 
