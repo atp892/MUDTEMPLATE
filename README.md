@@ -11,30 +11,35 @@ You're ready to go!
 
 # BASICS:
 
-color - this one is built into v1.1, called "ThemeChanger", but if you want to make it yourself, you can do so with
-DEPENDENCIES - MenuScript
+## color
+this one is built into v1.1, called "ThemeChanger", but if you want to make it yourself, you can do so with
+## DEPENDENCIES
+MenuScript
 (replace [colorvar] with a Color variable you have created.)
---------------------------------------------------------------------------------------------------------------------------- 
+________________________________________________________________________________________________________________________________
 MenuScript.BGColor = [colorvar];
 MenuScript.ButtonColor = [colorvar];
 MenuScript.PressedColor = [colorvar];
----------------------------------------------------------------------------------------------------------------------------
-single tap support - This one is easier to understand with code
----------------------------------------------------------------------------------------------------------------------------
+________________________________________________________________________________________________________________________________
+## single tap support
+This one is easier to understand with code
+________________________________________________________________________________________________________________________________
 private void OnEnable()
 {
 	gameObject.SetActive(false);
 }
----------------------------------------------------------------------------------------------------------------------------
-Redirect - When you press a button, it goes to a different category
-DEPENDENCIES - single tap support, MenuScript
----------------------------------------------------------------------------------------------------------------------------
+________________________________________________________________________________________________________________________________
+## Redirect
+When you press a button, it goes to a different category
+## DEPENDENCIES
+single tap support
+MenuScript
+________________________________________________________________________________________________________________________________
 public int Category;
 public bool left; // <<< optional
 
 MenuScript.Home();
 MenuScript.TurnPage(left); // <<< optional
 MenuScript.EnterCategory(Category);
----------------------------------------------------------------------------------------------------------------------------
-
+________________________________________________________________________________________________________________________________ 
 Thats all for V1.1, this may be updated in the future.
