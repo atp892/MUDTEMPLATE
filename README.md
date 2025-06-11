@@ -9,7 +9,7 @@ Create a new c# script in Extensions or whatever location you want.
 Add "public ModMenu MenuScript" to it.
 You're ready to go!
 
-BASICS:
+# BASICS:
 
 color - this one is built into v1.1, called "ThemeChanger", but if you want to make it yourself, you can do so with
 DEPENDENCIES - MenuScript
