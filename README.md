@@ -15,6 +15,7 @@ You're ready to go!
 this one is built into v1.1, called "ThemeChanger", but if you want to make it yourself, you can do so with
 ## DEPENDENCIES
 MenuScript
+
 (replace [colorvar] with a Color variable you have created.)
 ________________________________________________________________________________________________________________________________
 MenuScript.BGColor = [colorvar];
