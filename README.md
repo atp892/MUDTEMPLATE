@@ -18,26 +18,17 @@ MenuScript
 
 (replace [colorvar] with a Color variable you have created.)
 ________________________________________________________________________________________________________________________________
-MenuScript.BGColor = [colorvar];
-
-MenuScript.ButtonColor = [colorvar];
-
-MenuScript.PressedColor = [colorvar];
+	MenuScript.BGColor = [colorvar];
+	MenuScript.ButtonColor = [colorvar];
+	MenuScript.PressedColor = [colorvar];
 ________________________________________________________________________________________________________________________________
 ## single tap support
 This one is easier to understand with code
 ________________________________________________________________________________________________________________________________
-{
-
 	private void OnEnable()
-
 	{
-
 		gameObject.SetActive(false);
- 
 	}
-
-}
 ________________________________________________________________________________________________________________________________
 ## Redirect
 When you press a button, it goes to a different category
@@ -47,14 +38,11 @@ single tap support
 
 MenuScript
 ________________________________________________________________________________________________________________________________
-public int Category;
+	public int Category;
+	public bool left; // <<< optional
 
-public bool left; // <<< optional
-
-MenuScript.Home();
-
-MenuScript.TurnPage(left); // <<< optional
-
-MenuScript.EnterCategory(Category);
+	MenuScript.Home();
+	MenuScript.TurnPage(left); // <<< optional
+	MenuScript.EnterCategory(Category);
 ________________________________________________________________________________________________________________________________ 
 Thats all for V1.1, this may be updated in the future.
