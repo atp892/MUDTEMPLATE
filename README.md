@@ -39,13 +39,13 @@ single tap support
 MenuScript
 ________________________________________________________________________________________________________________________________
 public int Category;
-_
+
 public bool left; // <<< optional
 
 MenuScript.Home();
-_
+
 MenuScript.TurnPage(left); // <<< optional
-_
+
 MenuScript.EnterCategory(Category);
 ________________________________________________________________________________________________________________________________ 
 Thats all for V1.1, this may be updated in the future.
