@@ -13,7 +13,7 @@ You're ready to go!
 
 ### color
 this one is built into v1.1, called "ThemeChanger"
-## DEPENDENCIES
+#### DEPENDENCIES
 MenuScript
 
 (replace [colorvar] with a Color variable you have created.)
@@ -32,7 +32,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________
 ### Redirect
 When you press a button, it goes to a different category
-## DEPENDENCIES
+#### DEPENDENCIES
 
 single tap support
 
